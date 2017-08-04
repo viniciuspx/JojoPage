@@ -1,0 +1,57 @@
+body{
+  font-family: 'Permanent Marker', cursive;
+}
+
+*{
+  /*border: 1px solid red !important;*/
+}
+
+a.nav-link:link
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.nav-link:visited
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.nav-link:hover
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.nav-link:active
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+
+.author{
+  font-size: 12px;
+  font-family: serif;
+}
+
+.hr{
+  border: none;
+  height: 1px;
+}
+
+.container{
+}
+
+.header{
+  padding: 1px;
+}
+
+.header-in{
+  padding: 2px;
+}
+
+.button-bar{
+  padding: 1px;
+}
+
+.button{
+
+}
