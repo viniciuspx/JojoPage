@@ -5,6 +5,9 @@
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet"  type="text/css">
     <link href="css/style.css" rel="stylesheet"  type="text/css">
+
+    <script src="script.js"></script>
+
   </head>
   <body>
     <div class="container">
@@ -20,24 +23,24 @@
         </div>
         <div class="row button-bar text-center">
           <div class="col-md-3 button">
-              <a href="index.html" class="nav-link">
+              <button onclick="showHome()">
                 <h3>Home</h3>
-              </a>
+              </button>
           </div>
           <div class="col-md-3 button">
-            <a href="http://www.google.com.br" class="nav-link">
-              <h3>Misc</h3>
-            </a>
+            <button onclick="showMisc()">
+                <h3>Misc</h3>
+              </button>
           </div>
           <div class="col-md-3 button">
-            <a href="http://www.google.com.br" class="nav-link">
+            <button onclick="showMedia()">
               <h3>Media</h3>
-            </a>
+            </button>
           </div>
           <div class="col-md-3 button">
-            <a href="http://www.google.com.br" class="nav-link">
+            <button onclick="showExtra()">
               <h3>Extra</h3>
-            </a>
+            </button>
           </div>
         </div>
         <div class="row">
@@ -71,12 +74,12 @@
               Part 08: Jojolion (ジョジョリオン)
             </div>
           </div>
-          <div class="col-md-9 text-center">
+          <div id="div-text" class="col-md-9 text-center">
             <img src="images/jojo_logo.png" alt="Jojo Logo">
             <p>This Webpage is merely a fan site, non-profity!</p>
           </div>
           <div class="author col-md-12 text-center">
-            Site by: Vinícius Gabriel
+            Site dev: <a href="https://www.github.com/viniciuspx"> viniciuspx </a>
           </div>
         </div>
       </div>
